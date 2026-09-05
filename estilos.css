@@ -1,0 +1,32 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  background-color: #1e293b; 
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  list-style: none; 
+  display: flex;
+  justify-content: flex-end; 
+  gap: 2rem; 
+}
+
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none; 
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
